@@ -1,0 +1,71 @@
+import React from "react";
+import { Link, Links } from "react-router";
+
+function NavLinks() {
+  return (
+    <>
+      <Link to="/" className="text-blue-600 hover:underline font-semibold">
+        Home
+      </Link>
+      <Link to="/about" className="text-blue-600 hover:underline font-semibold">
+        About
+      </Link>
+      <Link
+        to="/brightsmile"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        BrightSmile
+      </Link>
+      <Link
+        to="/brightsmile-vtwo"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        BrightSmile V2
+      </Link>
+      <Link
+        to="/brightsmile-vthree"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        BrightSmile V3
+      </Link>
+      <Link
+        to="/adminBrightSmile"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        BrightSmile Admin
+      </Link>
+      <Link
+        to="/adminBrightSmile-LRN"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        BrightSmile LoginRegNotif
+      </Link>
+      <Link
+        to="/aldrenbagual-v1"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        AldrenBagual V1
+      </Link>
+      <Link
+        to="/aldrenbagual-v2"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        AldrenBagual V2
+      </Link>
+      <Link
+        to="/adminBrightSmile-v1"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        BrightSmile Admin V1
+      </Link>
+      <Link
+        to="/adminBrightSmile-v2"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        BrightSmile Admin V2
+      </Link>
+    </>
+  );
+}
+
+export default NavLinks;
