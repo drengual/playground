@@ -16,4 +16,5 @@ export default [
   route("para", "routes/para.tsx"),
   route("para2", "routes/para2.tsx"),
   route("para3", "routes/para3.tsx"),
+  route("questionnaire", "routes/questionnaire.tsx"),
 ] satisfies RouteConfig;

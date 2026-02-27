@@ -26,6 +26,12 @@ export default function Home() {
             </div>
             <span className="text-xl font-bold tracking-wider">PARACHUTE</span>
           </div>
+          <Link
+            to="/questionnaire"
+            className="px-5 py-2 bg-[#172F7C] text-white text-sm font-bold rounded-full hover:bg-[#BCA570] transition-colors"
+          >
+            📝 Brand Questionnaire
+          </Link>
           <span className="text-sm text-slate-500 font-medium">
             Design Mockup Selection
           </span>
