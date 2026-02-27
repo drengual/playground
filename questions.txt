@@ -1,0 +1,129 @@
+This questionnaire is designed to give you clarity on your brand’s identity, audience, and goals. Take your time answering, **there are no right or wrong responses**, only what feels true to your brand!
+
+<aside>
+
+## 01: Beyond looking "modern and fresh" what is the #1 goal?
+
+---
+
+For example: Is it to build trust before a meeting, or to generate cold inquiries from the site?
+
+✅ **Example Answer:**
+
+*"We design modern, ergonomic office furniture that helps people work comfortably and efficiently. We started this brand after struggling with back pain from poorly designed chairs. Our goal is to make workspaces healthier and more productive.""We want a site that acts as a 'digital handshake.' When I meet an ASX board member, I want them to visit the site and immediately feel that we are a tier-one operation that handles complexity with ease."*
+
+<aside>
+<img src="/icons/compose_gray.svg" alt="/icons/compose_gray.svg" width="40px" />
+
+</aside>
+
+---
+
+</aside>
+
+<aside>
+
+## 02: Who are the audience/we speaking to?
+
+---
+
+For example: Are we targeting C-suite executives, small business owners, or international partners?
+
+✅ **Example Answer:**
+
+"Our primary audience is Australian enterprise leaders and decision-makers who are overwhelmed by operational noise and need a stable strategy partner.”
+
+<aside>
+<img src="/icons/compose_gray.svg" alt="/icons/compose_gray.svg" width="40px" />
+
+</aside>
+
+---
+
+</aside>
+
+<aside>
+
+## 03: The "De-Clutter" Goal: Which associations are we moving away from?
+
+---
+
+You mentioned wanting to remove references to previous associations. What is the main message we should lead with instead?
+
+✅ **Example Answer:**
+
+"I want to move away from the 'boutique subcontractor' image and pivot toward being a 'Lead Strategy Architect' for Parachute. The focus should be on our independent authority.”
+
+<aside>
+<img src="/icons/compose_gray.svg" alt="/icons/compose_gray.svg" width="40px" />
+
+</aside>
+
+---
+
+</aside>
+
+<aside>
+
+## 04: Visual Vibe: Which "Interactive Concept”/Mockup websites resonates most?
+
+---
+
+Based on the live mockups (https://playground-renly.vercel.app/), which direction feels like the future of Parachute?
+
+✅ **Example Answer:**
+
+- **Direction 1:** Editorial Prestige (Magazine style, classic)
+- **Direction 2:** Kinetic Minimalist (Tech-forward, fast)
+- **Direction 3:** Mineral Vanguard (Architectural, Australian)
+
+<aside>
+<img src="/icons/compose_gray.svg" alt="/icons/compose_gray.svg" width="40px" />
+
+</aside>
+
+---
+
+</aside>
+
+<aside>
+
+## 05: How should your LinkedIn profile support the site?
+
+---
+
+As we fold this into a LinkedIn rewrite, what is the one key takeaway you want someone to have after seeing your profile banner and headline?
+
+✅ **Example Answer:**
+
+"I want them to see 'Stability' and 'Precision.' The LinkedIn should look like a professional extension of the website's 'Mineral' aesthetic.”
+
+<aside>
+<img src="/icons/compose_gray.svg" alt="/icons/compose_gray.svg" width="40px" />
+
+</aside>
+
+---
+
+</aside>
+
+<aside>
+
+## 06: What parts of the site will you want to change yourself?
+
+---
+
+Even though we are building a custom-engineered site, I will provide you with a **Simple Edit** 
+
+✅ **Example Answer:**
+
+"I’d like to be able to jump in once a month to update our 'Recent Projects' photos, change a few sentences in my bio, or post a new article without having to call a developer.”
+
+<aside>
+<img src="/icons/compose_gray.svg" alt="/icons/compose_gray.svg" width="40px" />
+
+</aside>
+
+---
+
+</aside>
