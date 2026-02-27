@@ -311,6 +311,30 @@ export default function Questionnaire() {
               />
             </div>
 
+            {/* Question 7 - Optional */}
+            <div className="bg-white rounded-3xl p-8 shadow-lg border-2 border-dashed border-slate-200">
+              <div className="flex items-start gap-4 mb-6">
+                <span className="flex-shrink-0 w-10 h-10 bg-[#BCA570] text-white rounded-full flex items-center justify-center font-bold">
+                  07
+                </span>
+                <div>
+                  <h3 className="text-xl font-bold text-slate-800 mb-2">
+                    Anything else you'd like to share?
+                  </h3>
+                  <p className="text-sm text-slate-500">
+                    Any additional thoughts, concerns, or ideas? This question
+                    is optional - feel free to skip it!
+                  </p>
+                </div>
+              </div>
+              <textarea
+                name="question7_additional"
+                rows={4}
+                placeholder="Share any other thoughts, questions, or ideas you'd like to discuss..."
+                className="w-full px-6 py-4 bg-slate-50 border border-slate-200 rounded-2xl text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#BCA570] focus:border-transparent resize-none"
+              />
+            </div>
+
             {/* Submit Button */}
             <div className="text-center">
               <button
