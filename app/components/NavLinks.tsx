@@ -64,6 +64,21 @@ function NavLinks() {
       >
         BrightSmile Admin V2
       </Link>
+      <Link
+        to="/adminMenu"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        Admin Menu
+      </Link>
+      <Link to="/para" className="text-blue-600 hover:underline font-semibold">
+        Para
+      </Link>
+      <Link to="/para2" className="text-blue-600 hover:underline font-semibold">
+        Para V2
+      </Link>
+      <Link to="/para3" className="text-blue-600 hover:underline font-semibold">
+        Para V3
+      </Link>
     </>
   );
 }
