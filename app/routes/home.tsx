@@ -369,6 +369,112 @@ export default function Home() {
           </p>
         </div>
       </footer>
+
+      {/* PCS Mockups Section */}
+      <section className="py-16 px-8 bg-slate-800">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl font-bold text-white mb-10 text-center">
+            Additional Design Options
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* PCS 1 */}
+            <Link
+              to="/pcs"
+              className="group block bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            >
+              <div className="aspect-[4/3] bg-gradient-to-br from-blue-600 to-blue-800 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-4xl font-bold text-white/80">
+                    PCS 1
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-2">
+                  Design Option A
+                </h3>
+                <p className="text-slate-600 text-sm">
+                  View first additional design mockup
+                </p>
+                <div className="flex items-center text-[#172F7C] font-bold text-sm mt-4 group-hover:text-[#BCA570] transition-colors">
+                  View Mockup{" "}
+                  <ArrowRight
+                    size={16}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </div>
+            </Link>
+
+            {/* PCS 2 */}
+            <Link
+              to="/pcs2"
+              className="group block bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            >
+              <div className="aspect-[4/3] bg-gradient-to-br from-amber-600 to-amber-800 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-4xl font-bold text-white/80">
+                    PCS 2
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-2">
+                  Design Option B
+                </h3>
+                <p className="text-slate-600 text-sm">
+                  View second additional design mockup
+                </p>
+                <div className="flex items-center text-[#172F7C] font-bold text-sm mt-4 group-hover:text-[#BCA570] transition-colors">
+                  View Mockup{" "}
+                  <ArrowRight
+                    size={16}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </div>
+            </Link>
+
+            {/* PCS 3 */}
+            <Link
+              to="/pcs3"
+              className="group block bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            >
+              <div className="aspect-[4/3] bg-gradient-to-br from-emerald-600 to-emerald-800 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-4xl font-bold text-white/80">
+                    PCS 3
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-2">
+                  Design Option C
+                </h3>
+                <p className="text-slate-600 text-sm">
+                  View third additional design mockup
+                </p>
+                <div className="flex items-center text-[#172F7C] font-bold text-sm mt-4 group-hover:text-[#BCA570] transition-colors">
+                  View Mockup{" "}
+                  <ArrowRight
+                    size={16}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Final Footer */}
+      <footer className="py-8 px-8 bg-slate-900 border-t border-slate-800">
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-sm text-slate-400">
+            Use the back button at the top of each page to return here.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
