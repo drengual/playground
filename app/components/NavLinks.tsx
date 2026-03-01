@@ -79,6 +79,21 @@ function NavLinks() {
       <Link to="/para3" className="text-blue-600 hover:underline font-semibold">
         Para V3
       </Link>
+      <Link to="/pcs" className="text-blue-600 hover:underline font-semibold">
+        PCS
+      </Link>
+      <Link
+        to="/pcs-v2"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        PCS V2
+      </Link>
+      <Link
+        to="/pcs-v3"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        PCS V3
+      </Link>
     </>
   );
 }
