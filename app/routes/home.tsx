@@ -523,6 +523,74 @@ export default function Home() {
         </div>
       </section>
 
+      {/* LinkedIn Mockups Section */}
+      <section className="py-16 px-8 bg-slate-800">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl font-bold text-white mb-10 text-center">
+            LinkedIn Mockups
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* LinkedIn Kit */}
+            <Link
+              to="/linkedin-kit"
+              className="group block bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            >
+              <div className="aspect-[4/3] bg-gradient-to-br from-blue-500 to-blue-700 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-4xl font-bold text-white/80">
+                    LinkedIn Kit
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-2">
+                  LinkedIn Profile Kit
+                </h3>
+                <p className="text-slate-600 text-sm">
+                  Assets and templates for LinkedIn profiles.
+                </p>
+                <div className="flex items-center text-[#172F7C] font-bold text-sm mt-4 group-hover:text-[#BCA570] transition-colors">
+                  View Mockup{" "}
+                  <ArrowRight
+                    size={16}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </div>
+            </Link>
+
+            {/* LinkedIn Featured */}
+            <Link
+              to="/linkedin-featured"
+              className="group block bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            >
+              <div className="aspect-[4/3] bg-gradient-to-br from-gray-500 to-gray-700 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-4xl font-bold text-white/80">
+                    LinkedIn Featured
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-2">
+                  Featured Section
+                </h3>
+                <p className="text-slate-600 text-sm">
+                  Designs for the "Featured" section on LinkedIn.
+                </p>
+                <div className="flex items-center text-[#172F7C] font-bold text-sm mt-4 group-hover:text-[#BCA570] transition-colors">
+                  View Mockup{" "}
+                  <ArrowRight
+                    size={16}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Final Footer */}
       <footer className="py-8 px-8 bg-slate-900 border-t border-slate-800">
         <div className="max-w-7xl mx-auto text-center">
