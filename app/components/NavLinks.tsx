@@ -94,6 +94,13 @@ function NavLinks() {
       >
         PCS V3
       </Link>
+      <Link
+        to="/pcs-v4"
+        className="text-blue-600 hover:underline font-semibold"
+      ></Link>
+      <Link to="/pcs5" className="text-blue-600 hover:underline font-semibold">
+        PCS5
+      </Link>
     </>
   );
 }

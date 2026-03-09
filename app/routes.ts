@@ -20,5 +20,6 @@ export default [
   route("pcs", "routes/pcs.tsx"),
   route("pcs2", "routes/pcs2.tsx"),
   route("pcs3", "routes/pcs3.tsx"),
-  // route("pcs4", "routes/pcs4.tsx"),
+  route("pcs4", "routes/pcs4.tsx"),
+  route("pcs5", "routes/pcs5.tsx"),
 ] satisfies RouteConfig;
