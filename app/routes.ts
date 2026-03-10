@@ -24,4 +24,6 @@ export default [
   route("pcs5", "routes/pcs5.tsx"),
   route("linkedin-kit", "routes/linkedin-kit.jsx"),
   route("linkedin-featured", "routes/linkedin-featured.jsx"),
+  route("linkedin-kit-v2", "routes/linkedin-kit-v2.jsx"),
+  route("linkedin-post-composer", "routes/linkedin-post-composer.jsx"),
 ] satisfies RouteConfig;
