@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import type { Route } from "./+types/home";
 import { ArrowRight, Star, Zap, Layers } from "lucide-react";
 import { motion } from "framer-motion";
+import NavLinks from "../components/NavLinks";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -529,6 +530,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-white mb-10 text-center">
             LinkedIn Mockups
           </h2>
+          <NavLinks />
           <div className="grid md:grid-cols-2 gap-8">
             {/* LinkedIn Kit */}
             <Link
@@ -632,6 +634,34 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-lg font-bold text-slate-800 mb-2">
                   Post Composer
+                </h3>
+                <p className="text-slate-600 text-sm">
+                  A tool for composing LinkedIn posts.
+                </p>
+                <div className="flex items-center text-[#172F7C] font-bold text-sm mt-4 group-hover:text-[#BCA570] transition-colors">
+                  View Mockup{" "}
+                  <ArrowRight
+                    size={16}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </div>
+            </Link>
+            {/* LinkedIn Post Template */}
+            <Link
+              to="/linkedin-post-template"
+              className="group block bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            >
+              <div className="aspect-[4/3] bg-gradient-to-br from-rose-500 to-rose-700 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-4xl font-bold text-white/80">
+                    LinkedIn Post Template
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-2">
+                  Post Template
                 </h3>
                 <p className="text-slate-600 text-sm">
                   A tool for composing LinkedIn posts.

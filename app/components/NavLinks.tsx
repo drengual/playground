@@ -94,12 +94,38 @@ function NavLinks() {
       >
         PCS V3
       </Link>
-      <Link
-        to="/pcs-v4"
-        className="text-blue-600 hover:underline font-semibold"
-      ></Link>
       <Link to="/pcs5" className="text-blue-600 hover:underline font-semibold">
         PCS5
+      </Link>
+      <Link
+        to="/linkedin-kit"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        LinkedIn Kit
+      </Link>
+      <Link
+        to="/linkedin-featured"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        LinkedIn Featured
+      </Link>
+      <Link
+        to="/linkedin-kit-v2"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        LinkedIn Kit v2
+      </Link>
+      <Link
+        to="/linkedin-post-composer"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        LinkedIn Post Composer
+      </Link>
+      <Link
+        to="/linkedin-post-template"
+        className="text-blue-600 hover:underline font-semibold"
+      >
+        LinkedIn Post Template
       </Link>
     </>
   );

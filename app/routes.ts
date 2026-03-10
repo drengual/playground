@@ -26,4 +26,5 @@ export default [
   route("linkedin-featured", "routes/linkedin-featured.jsx"),
   route("linkedin-kit-v2", "routes/linkedin-kit-v2.jsx"),
   route("linkedin-post-composer", "routes/linkedin-post-composer.jsx"),
+  route("linkedin-post-template", "routes/linkedin-post-template.jsx"),
 ] satisfies RouteConfig;
