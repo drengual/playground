@@ -587,6 +587,64 @@ export default function Home() {
                 </div>
               </div>
             </Link>
+
+            {/* LinkedIn Kit v2 */}
+            <Link
+              to="/linkedin-kit-v2"
+              className="group block bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            >
+              <div className="aspect-[4/3] bg-gradient-to-br from-red-500 to-red-700 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-4xl font-bold text-white/80">
+                    LinkedIn Kit v2
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-2">
+                  LinkedIn Profile Kit v2
+                </h3>
+                <p className="text-slate-600 text-sm">
+                  Assets and templates for LinkedIn profiles (v2).
+                </p>
+                <div className="flex items-center text-[#172F7C] font-bold text-sm mt-4 group-hover:text-[#BCA570] transition-colors">
+                  View Mockup{" "}
+                  <ArrowRight
+                    size={16}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </div>
+            </Link>
+
+            {/* LinkedIn Post Composer */}
+            <Link
+              to="/linkedin-post-composer"
+              className="group block bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+            >
+              <div className="aspect-[4/3] bg-gradient-to-br from-purple-500 to-purple-700 relative overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-4xl font-bold text-white/80">
+                    LinkedIn Post Composer
+                  </span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold text-slate-800 mb-2">
+                  Post Composer
+                </h3>
+                <p className="text-slate-600 text-sm">
+                  A tool for composing LinkedIn posts.
+                </p>
+                <div className="flex items-center text-[#172F7C] font-bold text-sm mt-4 group-hover:text-[#BCA570] transition-colors">
+                  View Mockup{" "}
+                  <ArrowRight
+                    size={16}
+                    className="ml-2 group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
